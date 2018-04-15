@@ -3,15 +3,17 @@ This project is designed to maximize the effficiency of organizations that use c
 
 ### The hierarchical model:
 
-(1) organizations consisting of (2) members. Each org has 
+(1) *organizations* (org) consisting of 
 
-(3) committees, a set of member ids.  Each committee has 
+(2) *members.* Each org has 
 
-(4) meetings, and each meeting has 
+(3) *committees* (unit), a set of member ids.  Each committee has 
 
-(5) questions that are put to vote. The finest level of detail kept is 
+(4) *meetings* (event), and each meeting has 
 
-(6) each  member's vote on a specified question. 
+(5) *questions* (question) that are put to vote. The finest level of detail kept is 
+
+(6) each  member's *vote* on a specified question. 
 
 ### User Roles
 
@@ -19,7 +21,7 @@ This project is designed to maximize the effficiency of organizations that use c
 
 1. Org admin- crud committee-member links and profiles, meetings, questions, and vote open/close 
 
-2. Member- login, access ap for voting, vote while vote is open. Access reports. 
+2. Member- login, access app for voting, vote while question is open. Enter comments. Access reports. 
 
 ### Use Case Summary
 
