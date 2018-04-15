@@ -10,10 +10,11 @@
 
 ### Modules
 1. Admin- crud Orgs
-2. OrgMgt- crud org's units, members
+2. OrgMgt- crud org's units, members, credentials
 3. UnitMgt- crud member-unit links, unit's meetings.
 4. MeetingMgt- 
     1. assemble agenda (set of questions), 
-    2. crud non-agenda questions, 
+    2. crud non-agenda questions,
+    3. Commence meeting, "rollcall"
     3. open/close questions for voting, 
     4. report all meeting action.  
